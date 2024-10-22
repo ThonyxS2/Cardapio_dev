@@ -12,7 +12,7 @@
 
 
     <!-- css -->
-    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="././output.css">
 
 </head>
 
@@ -22,12 +22,12 @@
     <header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
         <div class="w-full h-full flex flex-col justify-center items-center">
             <img src="../img/hamb-1.png" alt="logo DevBurguer"
-                class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200" />
+                class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200"/>
 
             <h1 class="text-4xl mt-4 mb-2 font-bold text-white">
                 Dev Burguer</h1>
 
-            <span class="text-white font-medium"> Rua Dev 10, Campo Grande - MS</span>
+            <span class="text-white font-medium"> Rua Dev 10, Manaus - AM</span>
 
             <div class="bg-green-500 px-4 py-1 rounded-lg mt-5" id="date-span">
                 <span> Seg a Dom - 18:00 às 22:00</span>
@@ -44,7 +44,7 @@
     <!-- INICIO MENU -->
     <div id="menu">
 
-        <main class=" grid grid-cols-1 gap-7 mx-auto max-w-7xl">
+        <main class=" grid grid-cols-1 md:grid-cols-2  gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
 
             <!--PRODUTO ITEM  -->
             <div class="flex gap-2">
@@ -52,8 +52,30 @@
                     class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
 
                 <div>
-                    <p class="font-bold">Hamburguer Duplo</p>
+                    <p class="font-bold">Hamburguer Smash</p>
                     <p class="text-sm">Pão levinho de fermetação natural da treigou, burger 160g, queijo prato e
+                        maionese da casa</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 18.90</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-card-btn" data-name="Hambuguer Smash"
+                            data-price="18.90">
+                            <i class="fa fa-cart-plus text-white"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!-- FIM DO PRODUTO ITEM -->
+
+            <!--PRODUTO ITEM  -->
+            <div class="flex gap-2">
+                <img src="../img/hamb-2.png" alt=" Hambuguer Duplo"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+
+                <div>
+                    <p class="font-bold">Hamburguer Duplo</p>
+                    <p class="text-sm">Pão levinho de fermetação natural da trigou, burger 160g, queijo prato e
                         maionese da casa</p>
 
                     <div class="flex items-center gap-2 justify-between mt-3">
@@ -70,18 +92,128 @@
 
             <!--PRODUTO ITEM  -->
             <div class="flex gap-2">
-                <img src="../img/hamb-2.png" alt=" Hambuguer Duplo"
+                <img src="../img/hamb-3.png" alt=" Hambuguer Dupla Carne"
                     class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
 
                 <div>
-                    <p class="font-bold">Hamburguer Smash</p>
-                    <p class="text-sm">Pão levinho de fermetação natural da treigou, burger 160g, queijo prato e
+                    <p class="font-bold">Hamburguer Dupla Carne</p>
+                    <p class="text-sm">Pão levinho de fermetação natural da trigou, burger 160g, queijo prato e
                         maionese da casa</p>
 
                     <div class="flex items-center gap-2 justify-between mt-3">
-                        <p class="font-bold text-lg">R$ 18.90</p>
-                        <button class="bg-gray-900 px-5 rounded add-to-card-btn" data-name="Hambuguer Smash"
-                            data-price="18.90">
+                        <p class="font-bold text-lg">R$ 38.90</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-card-btn" data-name="Hambuguer Dupla Carne"
+                            data-price="35.90">
+                            <i class="fa fa-cart-plus text-white"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!-- FIM DO PRODUTO ITEM -->
+
+            <!--PRODUTO ITEM  -->
+            <div class="flex gap-2">
+                <img src="../img/hamb-4.png" alt=" Hambuguer da Casa"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+
+                <div>
+                    <p class="font-bold">Hamburguer da Casa</p>
+                    <p class="text-sm">Pão levinho de fermetação natural da trigou, burger 160g, queijo prato e
+                        maionese da casa</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 30</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-card-btn" data-name="Hambuguer da Casa"
+                            data-price="30">
+                            <i class="fa fa-cart-plus text-white"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!-- FIM DO PRODUTO ITEM -->
+
+            <!--PRODUTO ITEM  -->
+            <div class="flex gap-2">
+                <img src="../img/hamb-5.png" alt=" Hambuguer Salad"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+
+                <div>
+                    <p class="font-bold">Hamburguer Salad</p>
+                    <p class="text-sm">Pão levinho de fermetação natural da trigou, burger 160g, queijo prato e
+                        maionese da casa</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 28.70</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-card-btn" data-name="Hambuguer Salad"
+                            data-price="28.70">
+                            <i class="fa fa-cart-plus text-white"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!-- FIM DO PRODUTO ITEM -->
+
+            <!--PRODUTO ITEM  -->
+            <div class="flex gap-2">
+                <img src="../img/hamb-6.png" alt="Hambuguer Barbecut"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+
+                <div>
+                    <p class="font-bold">Hambuguer Barbecut</p>
+                    <p class="text-sm">Pão levinho de fermetação natural da trigou, burger 160g, queijo prato e
+                        maionese da casa</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 35</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-card-btn" data-name="Hambuguer Barbecut"
+                            data-price="35">
+                            <i class="fa fa-cart-plus text-white"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!-- FIM DO PRODUTO ITEM -->
+
+            <!--PRODUTO ITEM  -->
+            <div class="flex gap-2">
+                <img src="../img/hamb-7.png" alt="Hambuguer Onion"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+
+                <div>
+                    <p class="font-bold">Hambuguer Onion</p>
+                    <p class="text-sm">Pão levinho de fermetação natural da trigou, burger 160g, queijo prato e
+                        maionese da casa</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 20</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-card-btn" data-name="Hambuguer Onion"
+                            data-price="30">
+                            <i class="fa fa-cart-plus text-white"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <!-- FIM DO PRODUTO ITEM -->
+
+            <!--PRODUTO ITEM  -->
+            <div class="flex gap-2">
+                <img src="../img/hamb-8.png" alt="Hambuguer Vegetariano"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+
+                <div>
+                    <p class="font-bold">Hambuguer Vegetariano</p>
+                    <p class="text-sm">Pão levinho de fermetação natural da trigou, burger 160g, queijo prato e
+                        maionese da casa</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 30</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-card-btn" data-name="Hambuguer Vegetariano"
+                            data-price="30">
                             <i class="fa fa-cart-plus text-white"></i>
                         </button>
                     </div>
